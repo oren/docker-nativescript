@@ -2,6 +2,8 @@
 
 [![docker-badge](http://dockeri.co/image/oreng/nativescript)](https://registry.hub.docker.com/u/oreng/nativescript)
 
+[![asciicast](https://asciinema.org/a/dknhnp2bufapfq05q5srkxkwn.png)](https://asciinema.org/a/dknhnp2bufapfq05q5srkxkwn)
+
 ## Content
 
 * [why](#why)
