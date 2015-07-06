@@ -13,7 +13,7 @@
 * [References](#references)
 
 ## Why?
-I wanted to explore [NativeScript](https://www.nativescript.org) but I didn't want to install and configure Java, Android SDK, Ant, etc.. life is too short so I created a Docker container with everything needed to run it.  
+I wanted to explore [NativeScript](https://www.nativescript.org) but didn't want to install and configure Java, Android SDK, Ant, etc. Life is too short so I created a Docker container with everything needed to run it.  
 Here is the relevant blog post: http://oren.github.io/blog/nativescript.html
 
 ## Setup
