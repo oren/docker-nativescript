@@ -1,6 +1,6 @@
 # Docker container for NativeScript development
 
-![docker-badge](http://dockeri.co/image/oreng/nativescript)
+[![docker-badge](http://dockeri.co/image/oreng/nativescript)](https://registry.hub.docker.com/u/oreng/nativescript)
 
 ## Content
 
