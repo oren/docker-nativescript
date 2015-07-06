@@ -2,7 +2,7 @@
 
 [![docker-badge](http://dockeri.co/image/oreng/nativescript)](https://registry.hub.docker.com/u/oreng/nativescript)
 
-[![asciicast](https://asciinema.org/a/dknhnp2bufapfq05q5srkxkwn.png)](https://asciinema.org/a/dknhnp2bufapfq05q5srkxkwn)
+![demo-video](demo-video.gif)
 
 ## Content
 
@@ -13,8 +13,8 @@
 * [References](#references)
 
 ## Why?
-
-I want to explore [NativeScript](https://www.nativescript.org) but I don't want to install and configure Java, Android SDK, Ant, cordova etc.. life is too short.
+I wanted to explore [NativeScript](https://www.nativescript.org) but I didn't want to install and configure Java, Android SDK, Ant, etc.. life is too short so I created a Docker container with everything needed to run it.  
+Here is the relevant blog post: http:///oren.github.io/blog/nativescript.html
 
 ## Setup
 
