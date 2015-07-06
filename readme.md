@@ -35,4 +35,4 @@ That's it, your app should be on your phone!
 
 ## References
 
-The image is a modification of https://github.com/Kallikrein/dockerfiles/tree/master/android-cordova~/projects/myAPP
+The image is a modification of https://github.com/Kallikrein/dockerfiles/tree/master/android-cordova
