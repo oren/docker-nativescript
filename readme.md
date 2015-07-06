@@ -1,4 +1,4 @@
-# Docker container for Cordova development
+# Docker container for NativeScript development
 
 ## Content
 
