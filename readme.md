@@ -22,7 +22,7 @@ I don't want to install and configure Java, Android SDK, Ant, cordova etc.. life
     alias mine='sudo chown -R $USER'
     alias tns='docker run -it --rm --privileged -v /dev/bus/usb:/dev/bus/usb -v $PWD:/src nativescript tns'
 
-The alias command lets you use `cordova` for running any command inside the cordova container.
+The alias command lets you use `tns` for running any command inside the nativescript container.
 
 ## New Project
 
@@ -31,18 +31,8 @@ The alias command lets you use `cordova` for running any command inside the cord
     tns platform add android
     tns run android
 
-Connect your android device to your laptop with a usb
-
-    cordova run android
-
 That's it, your app should be on your phone!
-
-## Useful commands
-
-List of attached devices. make sure you see your phone in that list.
-
-    docker run --rm -i -v $(pwd):/workspace -w /workspace --privileged -v /dev/bus/usb:/dev/bus/usb tns devices
 
 ## References
 
-The image is based on https://github.com/Kallikrein/dockerfiles/tree/master/android-cordova~/projects/myAPP
+The image is a modification of https://github.com/Kallikrein/dockerfiles/tree/master/android-cordova~/projects/myAPP
