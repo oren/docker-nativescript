@@ -15,10 +15,10 @@ I don't want to install and configure Java, Android SDK, Ant, cordova etc.. life
 ## Setup
 
     git clone git@github.com:oren/docker-nativescript.git
-    cd docker-cordova
-    docker build -t cordova .
+    cd docker-nativescript
+    docker build -t nativescript .
     alias mine='sudo chown -R $USER'
-    alias tns='docker run -it --rm --privileged -v /dev/bus/usb:/dev/bus/usb -v $PWD:/src cordova cordova'
+    alias tns='docker run -it --rm --privileged -v /dev/bus/usb:/dev/bus/usb -v $PWD:/src nativescript tns'
 
 The alias command lets you use `cordova` for running any command inside the cordova container.
 
@@ -39,7 +39,7 @@ That's it, your app should be on your phone!
 
 List of attached devices. make sure you see your phone in that list.
 
-    docker run --rm -i -v $(pwd):/workspace -w /workspace --privileged -v /dev/bus/usb:/dev/bus/usb cordova adb devices
+    docker run --rm -i -v $(pwd):/workspace -w /workspace --privileged -v /dev/bus/usb:/dev/bus/usb tns devices
 
 ## References
 
