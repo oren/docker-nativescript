@@ -14,21 +14,20 @@ I don't want to install and configure Java, Android SDK, Ant, cordova etc.. life
 
 ## Setup
 
-    git clone git@github.com:oren/docker-cordova.git
+    git clone git@github.com:oren/docker-nativescript.git
     cd docker-cordova
     docker build -t cordova .
     alias mine='sudo chown -R $USER'
-    alias drun='docker run -it --rm'
-    alias cordova='drun --privileged -v /dev/bus/usb:/dev/bus/usb -v $PWD:/src cordova cordova'
+    alias tns='docker run -it --rm --privileged -v /dev/bus/usb:/dev/bus/usb -v $PWD:/src cordova cordova'
 
 The alias command lets you use `cordova` for running any command inside the cordova container.
 
 ## New Project
 
-    cordova create hello
+    tns create hello
     cd hello
-    cordova platform add android
-    cordova build
+    tns platform add android
+    tns run android
 
 Connect your android device to your laptop with a usb
 
