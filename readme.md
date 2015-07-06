@@ -14,7 +14,7 @@
 
 ## Why?
 
-I don't want to install and configure Java, Android SDK, Ant, cordova etc.. life is too short.
+I want to explore [NativeScript](https://www.nativescript.org) but I don't want to install and configure Java, Android SDK, Ant, cordova etc.. life is too short.
 
 ## Setup
 
